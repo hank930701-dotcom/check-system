@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>每日營運檢查表</title>
+</head>
+<body>
+
+<h2>每日營運檢查表</h2>
+
+<form action="/submit" method="POST" enctype="multipart/form-data">
+
+日期:<input type="date" name="date"><br>
+人員:<input type="text" name="person"><br>
+
+預估Sales:<input name="forecast_sales"><br>
+實際Sales:<input name="actual_sales"><br>
+矩陣工時:<input name="matrix_hours"><br>
+排班工時:<input name="schedule_hours"><br>
+實際工時:<input name="actual_hours"><br>
+訓練工時:<input name="training_hours"><br>
+工時超用說明:<input name="note"><br>
+超8:<input name="over8"><br>
+TPLH:<input name="tplh"><br>
+SPMH:<input name="spmh"><br>
+會員數:<input name="member"><br>
+
+<hr>
+
+汽水機噴嘴:<input type="file" name="soda_nozzle"><br>
+汽水機座閥:<input type="file" name="soda_valve"><br>
+盤點差異表:<input type="file" name="inventory_diff"><br>
+盤點過帳:<input type="file" name="posting_screen"><br>
+損耗過帳:<input type="file" name="loss_screen"><br>
+K區地面:<input type="file" name="k_floor"><br>
+裹粉台:<input type="file" name="batter_table"><br>
+炸鍋:<input type="file" name="fryer"><br>
+炸鍋底部:<input type="file" name="fryer_bottom"><br>
+二樓地面:<input type="file" name="floor2"><br>
+三樓地面:<input type="file" name="floor3"><br>
+垃圾桶:<input type="file" name="trash"><br>
+廁所:<input type="file" name="toilet"><br>
+
+<br>
+<button type="submit">送出</button>
+
+</form>
+
+</body>
+</html>
