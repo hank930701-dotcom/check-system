@@ -1,6 +1,6 @@
 # Daily Check System
 
-手機巡檢系統（Flask）
+手機巡檢系統（Flask） 
 
 ## 功能
 - 表單填寫
