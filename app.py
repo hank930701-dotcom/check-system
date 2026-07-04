@@ -1,6 +1,9 @@
 from flask import Flask, render_template, request
 import os
+os.makedirs("uploads", exist_ok=True)
+os.makedirs("output", exist_ok=True)
 from utils_excel import save_to_excel
+
 
 app = Flask(__name__)
 
